@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', italic;
+}
+
+body{
+    background-color: #021e33;
+    height: 100vh;
+}
+
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imglogo{
+    height: 180px; 
+    width: 180px;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header div{
+    list-style-type: none;
+}
+
+header div h1{
+    display: inline-block;
+    padding: 40px;
+}
+
+.titulo{
+    color: #2ab1df;
+}
+
+.titulo span{
+    color: red;
+}
+/* TOPO DO SITE */
+section.topodosite{
+    padding: 40px 4%;
+}
+
+section.topodosite .flex{
+    align-items: center;
+    justify-items: center;
+    gap: 150px;
+}
+
+.topodosite h1{
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.txtTopoSite h1 span{
+    color: rgba(255, 0, 0, 0.879);
+}
+
+.txtTopoSite p{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.txtTopoSite p span{
+    color: rgba(255, 0, 0, 0.879);
+}
+
+.imgTopoSite img{
+    height: 383px;
+    width: 405px;
+    border-radius: 50px;
+}
